@@ -2,7 +2,7 @@ import win32com.client
 from datetime import date, timedelta
 import locale
 
-#魔法の言葉で、Outlookを使える状態に
+#Outlookを使える状態に
 outlook = win32com.client.Dispatch("Outlook.Application")
 
 #instance生成(メール)
